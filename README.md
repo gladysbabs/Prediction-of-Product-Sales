@@ -1,5 +1,6 @@
 # Prediction-of-Product-Sales
 This project is about a sales prediction for food items sold at various stores
+
 The pairplot visualization showcased a negative correlation between Item_Outlet_Sales and Item_Visibility. This contradicts with the assumption that increased visibility should lead to more sales. However, further investigation and stakeholder engagement is needed to understand this relationship.
 ![Pairplot](https://github.com/gladysbabs/Prediction-of-Product-Sales/assets/162020572/ade1900a-210e-41f8-919c-774c213d0c4e)
 
