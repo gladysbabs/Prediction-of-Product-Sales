@@ -7,5 +7,4 @@ The pairplot visualization showcased a negative correlation between Item_Outlet_
 The lmplot visualization additionally potrays that small outlets predominantly drive most of the item sales.
 ![lmplot](https://github.com/gladysbabs/Prediction-of-Product-Sales/assets/162020572/c132f8b0-dcc0-43d3-8d58-ca60171a96bc)
 
-To conclude on this data visualization,further investigation and stakeholder engagement is necessary to understand the negative correlation between item visibility and outlet sales.
-We also need to gather additional information on how promotional activities are conducted, the shelf placement strategies,market trends and customer preferences so as to develop a valid prediction on the sales.
+In summary, further investigation and engagement with stakeholders is essential inorder to understand the negative correlation between item visibility and outlet sales. Gathering additional information on promotional activities, shelf placement strategies, market trends, and customer preferences is crucial for developing accurate sales predictions. This comprehensive analysis will help stakeholders make informed decisions to optimize sales strategies and maximize revenue.
