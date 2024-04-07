@@ -18,7 +18,7 @@ The linear regression model performed poorly on the test data with a low r2_scor
 
 We also went ahead and tested the predictive performance of the Item_Outlet_Sales using the Random forest model, which accounted for about 57% variation in the y_test using the features in X_test. However,the tuned Forest model achieved a 0.6 r2_score showing a 60% variability in the true y values(y_test) using the features in X_test. 
 
-When we performed a comparison of the Mean_Absolute_Error for both the linear regression model and the tuned Random Forest model,a lower MAE:744.28 is observed for the tuned Random forest model, suggesting a better predictive performance than the linear regression model with an MAE:829.13. This lower MAE for the tuned forest model suggests that this model's predictions are closer to the actual Item_Outlet_Sales values on average.
+When we performed a comparison of the Mean_Absolute_Error for both the linear regression model and the tuned Random Forest model,a lower MAE:744.28 is observed for the tuned Random forest model, suggesting a better predictive performance than the linear regression model with an MAE:829.13. This lower MAE for the tuned Random forest model suggests that this model's predictions are closer to the actual Item_Outlet_Sales values on average.
 
 In conclusion, based on the metrics provided for evaluating the linear regression model and the random forest model, the Random Forest model with a lower MAE and a high r2_score indicates that it makes more accurate predictions on average.
 
