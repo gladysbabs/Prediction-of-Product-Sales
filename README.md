@@ -7,7 +7,8 @@
 The stakeholders need a predictive model to determine and improve future Item_Outlet_Sales (y variable) basing on the provided data about the various features (X variables).
 
 ### Data
-The Data provided includes a csv file with the statistical data, and a descriptive data dictionary of all the features and the target variable.
+The Data provided includes a csv file with the statistical data:
+and a descriptive data dictionary of all the features and the target variable.
 
 ## Methods
  - Data Cleaning: There had to be data cleaning performed on this provided data which steps included: Looking for and addressing Missing values, checking for and addressing inconsistencies in the data, as well as addressing any duplicates within the given data.
