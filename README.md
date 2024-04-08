@@ -9,18 +9,20 @@ The stakeholders need a predictive model to determine and improve future Item_Ou
 ### Data
 The Data provided includes a csv file with the statistical data: https://github.com/gladysbabs/Prediction-of-Product-Sales/blob/main/sales_predictions_2023.csv
 
-And a descriptive data dictionary of all the features and the target variable:
+And a descriptive data dictionary of all the features and the target variable:https://github.com/gladysbabs/Prediction-of-Product-Sales/blob/main/Sales_predictions%20Data%20Dictionary.png
 
 ## Methods
  - Data Cleaning: There had to be data cleaning performed on this provided data which steps included: Looking for and addressing Missing values, checking for and addressing inconsistencies in the data, as well as addressing any duplicates within the given data.
  - Exploratory Data Analysis: I analyzed the data so as to obtain the various patterns and relationships of mainly how the features relate with the target variable. Afew of the data visualization methods I used are highlighted below:
    
  ### The pairplot 
+To view the distribution of numerical and categorical features in the dataset.
 This visualization showcased a negative correlation between Item_Outlet_Sales and Item_Visibility (one of the features in the data). This contradicted with the assumption that increased visibility should lead to more Item_outlet_sales. However, further investigation and stakeholder engagement is needed to understand this relationship.
 ![Pairplot](https://github.com/gladysbabs/Prediction-of-Product-Sales/assets/162020572/ade1900a-210e-41f8-919c-774c213d0c4e)
 
 ### The lmplot
-The lmplot visualization additionally potrayed that small outlets predominantly drive most of the Item_Outlet_Sales.
+To visualize the relationship between two variables (Outlet_Size and Item_Outlet_Sales) and assessing whether there is a linear trend or correlation between them.
+The lmplot visualization indeed potrayed that small outlets predominantly drive most of the Item_Outlet_Sales.
 ![lmplot](https://github.com/gladysbabs/Prediction-of-Product-Sales/assets/162020572/c132f8b0-dcc0-43d3-8d58-ca60171a96bc)
 
 ### Summary
