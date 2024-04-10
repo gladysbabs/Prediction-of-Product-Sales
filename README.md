@@ -39,7 +39,7 @@ We therefore need to improve the predictive performance of the linear regression
 I also went ahead and tested the predictive performance of the Item_Outlet_Sales using the Random forest model, which accounted for about 57% variation in the Item_Outlet_Sales in the test set using the features in X_test, while the training set had its r2_score at 0.97 showing that the model is performing very poorly on unseen data and too well on training data. This indeed shows that the model is overfitting.
 
 ## COMPARISON RESULTS
-### Random Forest Model Vs. Linear Regression Model
+### The Default Random Forest Model Vs. Linear Regression Model
 
 For the test data, the Random Forest model has a lower MAE(796.14) compared to the linear regression model MAE(831.44), indicating that Random Forest Model performs better in terms of prediction accuracy. 
 However, the linear regression model has a slightly higher R2-score (58%) than the R2-score of the Random Forest Model (57%). This indicates that the linear regression model performs marginally better in explaining the variance in the target variable compared to the Random Forest Model.The difference between the R2-scores of the two models is relatively small, suggesting that their performance in this aspect is comparable.
