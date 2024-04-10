@@ -35,7 +35,7 @@ I tried to predict the Item_Outlet_Sales based on various predictive models whic
 The R2-Score of the test set(0.58) is slightly higher than that of the training set(0.56) meaning that the model is performing slightly better on unseen data than on training data. The model is not significantly overfitting or underfitting since the difference in R2-Score between the training and test sets is small.But this could easily suggest that the model is slightly overfitting.
 We therefore need to improve the predictive performance of the linear regression model.
 
-### The Random Forest Model
+### The Default Random Forest Model
 I also went ahead and tested the predictive performance of the Item_Outlet_Sales using the Random forest model, which accounted for about 57% variation in the Item_Outlet_Sales in the test set using the features in X_test, while the training set had its r2_score at 0.97 showing that the model is performing very poorly on unseen data and too well on training data. This indeed shows that the model is overfitting.
 
 ## COMPARISON RESULTS
