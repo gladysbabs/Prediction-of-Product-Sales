@@ -36,22 +36,22 @@ The R2-Score of the test set(0.58) is slightly higher than that of the training 
 We therefore need to improve the predictive performance of the linear regression model.
 
 ### The Default Random Forest Model
-I also went ahead and tested the predictive performance of the Item_Outlet_Sales using the Random forest model, which accounted for about 57% variation in the Item_Outlet_Sales in the test set using the features in X_test, while the training set had its r2_score at 0.97 showing that the model is performing very poorly on unseen data and too well on training data. This indeed shows that the model is overfitting.
+I also went ahead and tested the predictive performance of the Item_Outlet_Sales using the Random forest model, which accounted for about 57% variation in the Item_Outlet_Sales in the test set using the features in X_test, while the training set had its R2-Score at 0.97 showing that the model is performing very poorly on unseen data and too well on training data. This indeed shows that the model is overfitting.
 
 ## COMPARISON RESULTS
 ### The Default Random Forest Model Vs. Linear Regression Model
 
-For the test data, the default Random Forest model has a lower MAE(796.14) compared to the linear regression model MAE(831.44), indicating that Random Forest Model performs better in terms of prediction accuracy. 
-However, the linear regression model has a slightly higher R2-score (58%) than the R2-score of the Random Forest Model (57%). This indicates that the linear regression model performs marginally better in explaining the variance in the target variable compared to the Random Forest Model.The difference between the R2-scores of the two models is relatively small, suggesting that their performance in this aspect is comparable.
+For the test data, the default Random Forest model has a lower MAE(796.14) compared to the linear regression model MAE(831.44), indicating that the default Random Forest Model performs better in terms of prediction accuracy. 
+However, the linear regression model has a slightly higher R2-Score (58%) than the R2-Score of the default Random Forest Model (57%). This indicates that the linear regression model performs marginally better in explaining the variance in the target variable compared to the default Random Forest Model.The difference between the R2-Scores of the two models is relatively small, suggesting that their performance in this aspect is comparable.
 
-In summary, when I consider the MAE and r_2 score values, the Random Forest model appears to be a better choice.
+In summary, when I consider the MAE and R2-Score values, the default Random Forest model appears to be a better choice.
 
 ### Random Forest Model Vs. Tuned Random Forest Model
 
 - The tuned model's MAE is slightly lower on the test set (762.32) compared to the default model (796.14), indicating improved accuracy.
 - The tuned model's MSE is also lower on the test set (1,168,953.33) compared to the default model (1,270,475.71), indicating better performance in terms of error.
 - The tuned model's RMSE is lower on the test set (1,081.18) compared to the default model (1,127.15), further confirming improved accuracy.
-- The tuned model's R2 score is higher (0.60) compared to the default model (0.57), indicating that the tuned model explains more variance in the target variable.
+- The tuned model's R2-Score is higher (0.60) compared to the default model (0.57), indicating that the tuned model explains more variance in the target variable.
 
 With an overview of all the metrics,the performance of the tuned Random Forest model has improved compared to the default Random Forest model,showing the effectiveness of tuning a model.
 
@@ -60,9 +60,9 @@ With an overview of all the metrics,the performance of the tuned Random Forest m
 - The tuned random forest model has its MAE slightly lower on the test set (762.32) compared to the linear model (831.44), indicating improved accuracy.
  - The tuned random forest model has its MSE also lower on the test set (1,168,953.33) compared to the linear model (1,243,333.79), indicating better performance in terms of error.
  - The tuned random forest model has its RMSE lower on the test set (1,081.18) compared to the linear model (1,115.05), further confirming improved accuracy.
- - The tuned random forest model has its R2 score higher (0.60) compared to the linear model (0.58), indicating that the tuned model explains more variance in the target variable.
+ - The tuned random forest model has its R2-Score higher (0.60) compared to the linear model (0.58), indicating that the tuned model explains more variance in the target variable.
 
-See below barplot visualization comparing the R2_score of both models:
+See below barplot visualization comparing the R2-Score of both models:
 ![R2_score comparison between models](https://github.com/gladysbabs/Prediction-of-Product-Sales/assets/162020572/c71bca23-a663-495a-93be-a758033f3c72)
 
 - This barplot visualization shows that the tuned random forest model explains a slightly higher proportion of the variance in the target variable compared to the linear regression model.
@@ -73,10 +73,10 @@ Also a lineplot showing the MSE predictive performance between the two models :
 
 - The MSE of the tuned Random Forest model is lower than that of the linear regression model, showing that the tuned Random Forest model has a lower predictive error and potentially a better predictive performance.
   
-With this overview and visualization,I would recommend the tuned Random Forest model.
+With this overview and visualizations,I would recommend the tuned Random Forest model.
 
 ## CONCLUSION
-Based on the metrics provided for evaluating the linear regression model, the default and tuned random forest model, the tuned Random Forest model with a lower MAE  on the test set (762.32) and a high r2_score (0.60) indicates that the tuned Random forest model makes more accurate predictions on average.
+Based on the metrics provided for evaluating the linear regression model, the default and tuned random forest model, the tuned Random Forest model with a lower MAE  on the test set (762.32) and a high R2-Score (0.60) indicates that the tuned Random forest model makes more accurate predictions on average.
 
 ## FINAL RECOMMENDATIONS
 
